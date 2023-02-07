@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+<<<<<<< HEAD
+=======
+import streamlit as st
+import pandas as pd
+import numpy as np
+>>>>>>> 97f220726565d9574f4dbdc7e40dda8b3d473eaf
 import requests
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure

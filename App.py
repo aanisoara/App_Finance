@@ -367,7 +367,8 @@ else:
 
         data = selected_stock_data.copy()
 
-        ## ________________ graphiques sectors ..
+        """
+      ## ________________ graphiques sectors ..
 
         st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -408,5 +409,7 @@ else:
             labels = selected_stock_data['CNTRY_OF_DOMICILE'].value_counts()
             sns.countplot(x=selected_stock_data['CNTRY_OF_DOMICILE'])
             st.pyplot(plt)
+            
+           """
 
     st.image('https://github.com/aanisoara/Projet_Finance/raw/main/Image/thanks.gif',width=300, use_column_width ='false')
